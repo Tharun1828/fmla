@@ -44,9 +44,10 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Hey, You Have To Join @Rapid_Bots Channel To Get Access To This Bot 😉.**\n\n"
-                 "Please Join 👇 And Come Back Here..."
-                 "👉 Link: https://t.me/Rapid_Bots",
+            text= '''Hey, You Have To Join @Rapid_Bots Channel To Get Access To This Bot.😉
+
+Please Join👇 And Come Back Here...
+👉 Link: https://t.me/Rapid_Bots''',
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
